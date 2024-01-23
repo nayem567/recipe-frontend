@@ -1,0 +1,42 @@
+:root{
+    --nutmeg: hsl(14, 45%, 36%);
+    --maroon: hsl(332, 51%, 32%);
+    --eggshell: hsl(30, 54%, 90%);
+}
+body{
+    background-color:var(--eggshell) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: #fff;
+    max-width: 978px !important;
+}
+.container table tbody tr td{
+    background-color: inherit;
+}
+#time{
+    background-color: hsl(330, 100%, 98%);
+}
+.preparation{
+    color: var(--maroon);
+}
+.nutmeg{
+    color: var(--nutmeg) !important;
+}
+.frontend{
+    color: #6624a8;
+}
+.name{
+    color: #710193;
+}
+
+footer {
+    background-color: #eae5ec;
+}
+
+/* Responsive */
+
+@media (max-width: 575.98px) {
+    .img-fluid {
+      border-radius: 0 !important;
+    }
